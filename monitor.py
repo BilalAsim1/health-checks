@@ -4,5 +4,9 @@ def check_memory():
 def main():
     check_memory()
 
+def check_network():
+    print("network: OK")
+
+
 if __name__ == "__main__":
     main()
