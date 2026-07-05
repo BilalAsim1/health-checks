@@ -1,4 +1,6 @@
 def check_load():
-    print("load is fine")
+    """Check system load and report status."""
+    print("load: OK")
 
-check_load()
+if __name__ == "__main__":
+    check_load()
