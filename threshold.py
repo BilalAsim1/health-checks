@@ -1,7 +1,9 @@
 import shutil
 
 # Minimum free disk space required
-THRESHOLD = 10
+stricter-threshold
+THRESHOLD = 25
+main
 
 def check_disk(disk):
     du = shutil.disk_usage(disk)
